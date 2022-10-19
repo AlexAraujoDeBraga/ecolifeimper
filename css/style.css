@@ -1,0 +1,344 @@
+@import url('https://fonts.googleapis.com/css2?family=Calistoga&family=Poppins:wght@200&family=Righteous&family=Roboto:wght@500&display=swap');
+
+/*    font-family: 'Poppins', sans-serif;
+
+    font-family: 'Righteous', cursive;
+
+    font-family: 'Roboto', sans-serif;
+	
+	font-family: 'Calistoga', cursive;
+	
+	
+	@import url('https://fonts.googleapis.com/css2?family=Calistoga&display=swap');
+	*/
+
+body {
+    margin: 0;
+    padding-bottom: 0;
+}
+
+
+/*nav*/
+
+.color-header-top {
+    background-color: #f5f5f5;
+}
+
+.nav-menu {
+    list-style-type: none;
+}
+
+.item-nav {
+    margin-right: 23px;
+    float: left;
+}
+
+.link-nav {
+    font-size: 12pt;
+    text-decoration: none;
+    font-weight: bold;
+    color: #000;
+}
+
+.link-nav:hover {
+    transition: 0.3s;
+    text-decoration: none;
+    color: #88d102;
+}
+
+.color-icon {
+    color: #88d102;
+}
+
+.telefone {
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 13pt;
+    color: #000;
+    margin-left: 200px;
+}
+
+
+/**carousel*/
+
+.fundo {
+    border-radius: 30%;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.margem {
+    margin-bottom: 5px;
+}
+
+.slide-1 {
+    position: relative;
+}
+
+.slide-2 {
+    position: relative;
+}
+
+
+/*quem somos
+font-family: 'Righteous', cursive;
+
+    font-family: 'Roboto', sans-serif;
+	
+	font-family: 'Calistoga', cursive;
+
+*/
+
+#quem-somos {
+    border-top: 4px solid #000;
+    background-color: #fff;
+}
+
+.titulo-section {
+    font-family: 'Roboto', sans-serif;
+    color: #6da702;
+    font-weight: 800;
+    margin-top: 60px;
+}
+
+.quem-somos-texto {
+    margin-top: 40px;
+    text-indent: 2em;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 16pt;
+    text-align: justify;
+    color: #686868;
+}
+
+.borda {
+    margin-right: 10px;
+    border-right: 4px solid #000;
+}
+
+.div-video {
+    background-color: #f5f5f5;
+    padding-bottom: 80px;
+}
+
+.video-config {
+    width: 550px;
+    height: 390px;
+}
+
+.titulo-cartao {
+    margin-top: 150px;
+    font-family: 'Poppins', sans-serif;
+    color: #212121;
+}
+
+.fundo-icone {
+    background-color: #212121;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 150px;
+}
+
+.texto-icone {
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+    font-size: 16pt;
+    margin-left: 10px;
+}
+
+
+/*nosso serviço*/
+
+.texto-servico {
+    text-align: center;
+    padding: 10px;
+    font-family: 'Righteous', cursive;
+    background-color: green;
+    color: #fff;
+}
+
+.titulo-section-servico {
+    font-family: 'Roboto', sans-serif;
+    color: #6da702;
+    font-weight: 800;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.item-servico {
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: 0.5s ease;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.item-servico:hover .overlay {
+    opacity: 1;
+}
+
+.text {
+    color: white;
+    font-size: 18px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+
+/*nosso serviço 2*/
+
+#nosso-servico-2 {
+    margin-top: 80px;
+    background-color: #f5f5f5;
+    padding-bottom: 80px;
+}
+
+.titulo-section-inst {
+    margin-top: 60px;
+    font-size: 16pt;
+    font-family: 'Roboto', sans-serif;
+}
+
+.instagram-endereco {
+    font-size: 22pt;
+    font-family: 'Roboto', sans-serif;
+}
+
+.color-icon-2 {
+    margin-right: 10px;
+    color: #88d102;
+}
+
+.antes_depois {
+    margin-top: 30px;
+    font-family: 'Poppins', sans-serif;
+    color: #212121;
+    margin-bottom: 30px;
+}
+
+.image {
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+
+
+/*contato*/
+
+#contato {
+    background-color: #88d102;
+}
+
+.div-contato {
+    margin-top: 50px;
+}
+
+.div-contato-final {
+    padding-bottom: 50px;
+}
+
+.titulo-contato {
+    font-family: 'Roboto', sans-serif;
+    color: #212121;
+    font-size: 28pt;
+}
+
+.frase-contato {
+    margin-top: 20px;
+    font-family: 'Poppins', sans-serif;
+    color: #212121;
+    font-size: 14pt;
+}
+
+.config {
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-size: 13pt;
+}
+
+.label-style {
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-size: 13pt;
+    display: block;
+    width: 100%;
+}
+
+.input-style {
+    height: 40px;
+    width: 100%;
+    background-color: #eef8db;
+    border: 2px solid green;
+}
+
+.input-style-message {
+    width: 100%;
+    background-color: #eef8db;
+    border: 2px solid green;
+}
+
+.botao-enviar {
+    margin-top: 10px;
+    display: inline-block;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15pt;
+    background-color: green;
+}
+
+
+/*contato-fixed*/
+
+.contato-fixed {
+    background-color: #006400;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    border-radius: 40px;
+    padding: 6px 18px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    box-shadow: 0 0 1em #000;
+    cursor: pointer;
+}
+
+.contato-fixed:hover {
+    background-color: green;
+    transition: 0.2s;
+}
+
+.contato-whats {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    margin-left: 5px;
+    color: #fff;
+}
+
+.color-icon-click {
+    color: #000;
+}
+
+.link-click-instagram {
+    color: black;
+}
+
+.mensagem-sucesso {
+    font-size: 20pt;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+}
